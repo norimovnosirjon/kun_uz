@@ -20,4 +20,5 @@ import lombok.experimental.FieldDefaults;
 @Entity
 @Table(name = "category")
 public class CategoryEntity extends BaseLanguageNameEntity {
+
 }

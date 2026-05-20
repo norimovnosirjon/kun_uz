@@ -56,7 +56,7 @@ public class ArticleTypeService {
         } else {
             throw new ItemNotFoundException("Bunday artikl tipi topilmadi");
         }
-     /*   Optional<ArticleTypeEntity> optionalUpdate = articleTypeRepository.findByIdAndVisibleIsTrue(id);
+      /*  Optional<ArticleTypeEntity> optionalUpdate = articleTypeRepository.findByIdAndVisibleIsTrue(id);
         if (optionalUpdate.isEmpty()) {
             log.warn("Bunday artikl tipi topilmadi id : {}", id);
             throw new ItemNotFoundException("Bunday artikl tipi topilmadi");
